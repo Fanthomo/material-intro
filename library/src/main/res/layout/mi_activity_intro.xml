@@ -49,6 +49,7 @@
         android:layout_margin="@dimen/mi_baseline"
         android:layout_width="wrap_content"
         android:padding="@dimen/mi_baseline"
+        android:tint="@color/mi_color_white"
         android:src="@drawable/mi_ic_skip"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -62,6 +63,7 @@
         android:layout_margin="@dimen/mi_baseline"
         android:layout_width="wrap_content"
         android:padding="@dimen/mi_baseline"
+        android:tint="@color/mi_color_white"
         android:src="@drawable/mi_ic_next_finish"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -103,7 +105,7 @@
             android:paddingRight="@dimen/mi_baseline"
             android:paddingTop="@dimen/mi_baseline_half"
             android:text="@string/mi_label_button_cta"
-            android:textColor="?android:textColorPrimaryInverse" />
+            android:textColor="@color/mi_color_white" />
 
         <Button
             android:gravity="center"
@@ -117,7 +119,7 @@
             android:paddingRight="@dimen/mi_baseline"
             android:paddingTop="@dimen/mi_baseline_half"
             android:text="@string/mi_label_button_cta"
-            android:textColor="?android:textColorPrimaryInverse"
+            android:textColor="@color/mi_color_white"
             android:visibility="gone" />
 
     </TextSwitcher>

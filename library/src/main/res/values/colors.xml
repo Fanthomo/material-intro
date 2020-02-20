@@ -33,4 +33,5 @@
 
     <color name="mi_icon_color_dark">#ffffffff</color>
     <color name="mi_icon_color_light">#8a000000</color>
+    <color name="mi_color_white">#FFFFFF</color>
 </resources>

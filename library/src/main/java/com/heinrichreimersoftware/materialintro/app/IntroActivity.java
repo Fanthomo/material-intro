@@ -707,12 +707,9 @@ public class IntroActivity extends AppCompatActivity implements IntroNavigation 
             iconColor = ContextCompat.getColor(this, R.color.mi_icon_color_dark);
         }
         miPagerIndicator.setCurrentPageIndicatorColor(iconColor);
-        DrawableCompat.setTint(miButtonNext.getDrawable(), iconColor);
-        DrawableCompat.setTint(miButtonBack.getDrawable(), iconColor);
 
         @ColorInt
-        int textColorButtonCta = buttonCtaTintMode == BUTTON_CTA_TINT_MODE_TEXT ?
-                backgroundDarker : iconColor;
+        int textColorButtonCta = ContextCompat.getColor(this, R.color.mi_color_white);
         ((Button) miButtonCta.getChildAt(0)).setTextColor(textColorButtonCta);
         ((Button) miButtonCta.getChildAt(1)).setTextColor(textColorButtonCta);
 
